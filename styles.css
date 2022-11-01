@@ -1,0 +1,31 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
+body {
+    background-color: #F28095;
+    margin: 0;
+}
+header, footer{
+    width: 1000px;
+    text-align: center;
+}
+header {
+    height: 150px;
+    background-color: #141a1a;
+    color: white;
+}
+h1{
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+#grid-containter{
+    width: 1000px;
+    text-align: center;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+}
+
