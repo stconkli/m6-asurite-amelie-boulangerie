@@ -2,14 +2,17 @@
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
 }
+
 body {
     background-color: #F28095;
     margin: 0;
 }
+
 header, footer{
     width: 1000px;
     text-align: center;
 }
+
 header {
     height: 150px;
     background-color: #141a1a;
@@ -18,12 +21,14 @@ header {
     background-position: right;
     color: white;
 }
+
 h1{
     margin: 0;
     text-align: left;
     padding-top: 50px;
     padding-left: 32px;
 }
+
 #grid-containter{
     width: 1000px;
     justify-content: center;
@@ -32,14 +37,17 @@ h1{
     grid-template-columns: 184px 1fr;
     gap: 0 16px;
 }
+
 nav {
     width: 150px;
     margin-top: 16px;
 }
+
 nav li {
     list-style: none;
     text-align: center;
 }
+
 nav a {
     display: block;
     padding: 16px;
@@ -49,30 +57,38 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
 nav a[href="index.html"], a:hover {
     background-color: #f28095;
 }
+
 main {
     color: #542c1b;
     padding-bottom: 16px;
 }
+
 main img {
     float: left;
 }
+
 main p, main ul {
     display: inline-block;
     width: 50%;
 }
+
 main p{
     margin-left: 32px;
 }
+
 main ul{
     margin-left: 16px;
 }
+
 address {
     clear: both;
     padding-top: 16px;
 }
+
 footer {
     font-style: italic;
     text-align: center;
